@@ -7,3 +7,8 @@ Fox machine is a company that sells printers and gives discounts to customers. B
 
 Class Diagram:
 https://www.lucidchart.com/invitations/accept/20183fd3-abbf-4b19-a92b-efd68e8e4dff
+
+# How to Run:
+
+Go to the "Classes" directory and run the following command:
+java TestFoxMachine
