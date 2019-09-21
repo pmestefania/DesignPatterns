@@ -1,0 +1,2 @@
+# StrategyPattern
+Strategy Pattern exercises
