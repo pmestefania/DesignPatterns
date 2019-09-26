@@ -10,6 +10,7 @@ public class TireStats implements Observer, Display {
 
     public TireStats(TireData td) {
         tireData = td;
+        tireData.addObserver(this);
     }
 
     @Override

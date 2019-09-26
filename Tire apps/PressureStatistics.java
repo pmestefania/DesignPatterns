@@ -10,6 +10,7 @@ public class PressureStatistics implements Observer, Display {
 
     public PressureStatistics(TireData td) {
         tireData = td;
+        tireData.addObserver(this);
     }
 
     @Override

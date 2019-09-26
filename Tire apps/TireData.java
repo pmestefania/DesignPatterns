@@ -50,13 +50,16 @@ public class TireData implements Subject {
 
     public void setPressure(Double p) {
         pressure = p;
+        valuesChanged();
     }
 
     public void setHumidity(Double h) {
         humidity = h;
+        valuesChanged();
     }
 
     public void setTemperature(Double t) {
         temperature = t;
+        valuesChanged();
     }
 }
