@@ -15,32 +15,23 @@ public class TestTireApps {
         tireData.setTemperature(0.0);
 
         pressureStatistics.display();
-        System.out.println();
         pressureForecast.display();
-        System.out.println();
         tireStats.display();
-        System.out.println();
         
         tireData.setPressure(10.0);
         tireData.setHumidity(10.0);
         tireData.setTemperature(10.0);
 
         pressureStatistics.display();
-        System.out.println();
         pressureForecast.display();
-        System.out.println();
-        tireStats.display();
-        System.out.println();   
+        tireStats.display();   
 
         tireData.setPressure(5.0);
         tireData.setHumidity(5.0);
         tireData.setTemperature(5.0);
 
         pressureStatistics.display();
-        System.out.println();
         pressureForecast.display();
-        System.out.println();
-        tireStats.display();
-        System.out.println();   
+        tireStats.display();   
     }
 }

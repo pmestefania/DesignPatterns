@@ -26,9 +26,11 @@ public class PressureStatistics implements Observer, Display {
 
     @Override
     public void display() {
+        System.out.println();
         System.out.println("Pressure Statistics");
         System.out.println("Average: " + acumPressure / acumCaptures);
         System.out.println("Min: " + minPressure);
         System.out.println("Max: " + maxPressure);
+        System.out.println();
     }
 }

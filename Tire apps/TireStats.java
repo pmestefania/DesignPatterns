@@ -22,9 +22,11 @@ public class TireStats implements Observer, Display {
 
     @Override
     public void display() {
+        System.out.println();
         System.out.println("Tire Stats");
         System.out.println("Current pressure: " + pressure);
         System.out.println("Current humidity: " + humidity);
         System.out.println("Current temperature: " + temperature);
+        System.out.println();
     }
 }

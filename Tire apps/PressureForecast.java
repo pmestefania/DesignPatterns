@@ -20,7 +20,9 @@ public class PressureForecast implements Observer, Display {
 
     @Override
     public void display() {
+        System.out.println();
         System.out.println("Pressure Forecast");
         System.out.println("Current pressure: " + pressure);
+        System.out.println();
     }
 }
