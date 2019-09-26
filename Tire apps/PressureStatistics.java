@@ -5,7 +5,7 @@
 import java.util.ArrayList;
 
 public class PressureStatistics implements Observer, Display {    
-    private Double acumPressure = 0, acumCaptures = 0, minPressure = 0, maxPressure = 0;
+    private Double acumPressure = 0.0, acumCaptures = 0.0, minPressure = 0.0, maxPressure = 0.0;
     private TireData tireData;
 
     public PressureStatistics(TireData td) {
