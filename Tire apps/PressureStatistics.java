@@ -5,7 +5,7 @@
 import java.util.ArrayList;
 
 public class PressureStatistics implements Observer, Display {    
-    private Double acumPressure = 0.0, acumCaptures = 0.0, minPressure = 0.0, maxPressure = 0.0;
+    private Double acumPressure = 0.0, acumCaptures = 0.0, minPressure, maxPressure;
     private TireData tireData;
 
     public PressureStatistics(TireData td) {
@@ -16,10 +16,14 @@ public class PressureStatistics implements Observer, Display {
     @Override
     public void update() {
         Double pressure = tireData.getPressure();
+
+        if(minPressure == null && maxPressure == null)
+            minPressure = maxPressure = pressure;
         if(pressure < minPressure)
             minPressure = pressure;
         if(pressure > maxPressure)
             maxPressure = pressure;
+
         acumPressure += pressure;
         acumCaptures++;
     }
