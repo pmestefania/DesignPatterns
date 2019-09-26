@@ -1,5 +1,5 @@
 # Exercise: Fox Machine
-Strategy Pattern exercises
+Behavioral Patterns - Strategy Patterns
 
 Description of the problem:
 
