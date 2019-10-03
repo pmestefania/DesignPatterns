@@ -3,8 +3,12 @@
  * @author estefaniapitolmartinez
  */
 public class DarkRoast extends Beverage {
+    public DarkRoast() {
+        this.description = "DarkRoast description";
+    }
+
     @Override
-    public Double cost() {
-        return 0.0;
+    public String cost() {
+        return "DarkRoast price";
     }
 }

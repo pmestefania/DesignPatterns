@@ -3,8 +3,12 @@
  * @author estefaniapitolmartinez
  */
 public class Espresso extends Beverage {
+    public Espresso() {
+        this.description = "Espresso description";
+    }
+
     @Override
-    public Double cost() {
-        return 0.0;
+    public String cost() {
+        return "Espresso price";
     }
 }

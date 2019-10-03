@@ -3,8 +3,12 @@
  * @author estefaniapitolmartinez
  */
 public class HouseBlend extends Beverage {
+    public HouseBlend() {
+        this.description = "HouseBlend description";
+    }
+
     @Override
-    public Double cost() {
-        return 0.0;
+    public String cost() {
+        return "HouseBlend price";
     }
 }

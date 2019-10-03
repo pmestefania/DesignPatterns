@@ -1,5 +1,5 @@
 # Exercise: Window System
-_____ Patterns - Decorator Patterns
+Structural Patterns - Decorator Patterns
 
 Description of the problem:
 
@@ -10,5 +10,4 @@ https://www.lucidchart.com/invitations/accept/b38d5129-e8ed-48c4-803d-8161464c89
 
 # How to Run:
 
-Go to the "Classes" directory and run the following command:
-java TestWindowSystem
+Compile and run TestWindowSystem.java

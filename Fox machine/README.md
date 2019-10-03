@@ -10,5 +10,4 @@ https://www.lucidchart.com/invitations/accept/20183fd3-abbf-4b19-a92b-efd68e8e4d
 
 # How to Run:
 
-Go to the "Classes" directory and run the following command:
-java TestFoxMachine
+Compile and run TestFoxMachine.java

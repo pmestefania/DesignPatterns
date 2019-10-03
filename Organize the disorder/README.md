@@ -6,5 +6,4 @@ https://www.lucidchart.com/invitations/accept/271b486c-7d1e-4abf-9813-8675d48107
 
 # How to Run:
 
-Go to the "Classes" directory and run the following command:
-java TestOrganizeTheDisorder
+Compile and run TestOrganizeTheDisorder.java

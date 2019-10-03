@@ -3,11 +3,11 @@
  * @author estefaniapitolmartinez
  */
 public abstract class Beverage {
-    private String description;
+    protected String description;
 
     public String getDescription() {
         return this.description;
     }
 
-    public abstract Double cost();
+    public abstract String cost();
 }

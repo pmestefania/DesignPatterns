@@ -12,7 +12,7 @@ https://www.lucidchart.com/invitations/accept/20183fd3-abbf-4b19-a92b-efd68e8e4d
 Tire Apps exercise Class Diagram:
 https://www.lucidchart.com/invitations/accept/0c2c9167-9172-4aa5-8b59-c433281f8ce1
 
-# _____ Patterns - Decorator Patterns
+# Structural Patterns - Decorator Patterns
 iCoffee exercise Class Diagram:
 https://www.lucidchart.com/invitations/accept/e19bf65b-f1d5-4ea0-84c7-d377a9e723fb
 

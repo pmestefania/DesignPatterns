@@ -3,8 +3,12 @@
  * @author estefaniapitolmartinez
  */
 public class Decaf extends Beverage {
+    public Decaf() {
+        this.description = "Decaf description";
+    }
+
     @Override
-    public Double cost() {
-        return 0.0;
+    public String cost() {
+        return "Decaf price";
     }
 }
