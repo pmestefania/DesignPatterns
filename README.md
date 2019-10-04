@@ -18,3 +18,6 @@ https://www.lucidchart.com/invitations/accept/e19bf65b-f1d5-4ea0-84c7-d377a9e723
 
 Window System exercise Class Diagram:
 https://www.lucidchart.com/invitations/accept/b38d5129-e8ed-48c4-803d-8161464c8952
+
+Shapes exercise Class Diagram:
+https://www.lucidchart.com/invitations/accept/43c858a7-57cb-4581-a7f2-58f37c447a21
