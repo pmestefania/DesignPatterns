@@ -25,3 +25,6 @@ https://www.lucidchart.com/invitations/accept/43c858a7-57cb-4581-a7f2-58f37c447a
 # Creational Patterns - Factory Pattern
 Shapes exercise Source:
 https://www.youtube.com/watch?v=0vmOv-DYd4o&feature=youtu.be
+
+Baguette Shop exercise Class Diagram:
+https://www.lucidchart.com/invitations/accept/d22bf7b3-9359-4c60-b83f-a18fbec93ae4
