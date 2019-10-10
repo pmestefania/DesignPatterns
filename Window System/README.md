@@ -1,5 +1,5 @@
 # Exercise: Window System
-Structural Patterns - Decorator Patterns
+Structural Patterns - Decorator Pattern
 
 Description of the problem:
 
