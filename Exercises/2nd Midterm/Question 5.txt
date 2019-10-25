@@ -1,0 +1,17 @@
+The command pattern through Commands give us a way to package a particular executable function. 
+Also packages the receiver and a broader set of actions. But consider that the computation itself 
+may be invoked long after some client application creates the command object. In fact, it may even 
+be invoked by a different thread.
+
+A common scenario is a task queue where commands are added to the queue on one end, and on the other 
+end sits a group of threads. Then, Threads run, typically, the following script: they remove a command 
+from the queue, call its execute() method, wait for the call to finish, then discard the command object 
+and retrieve a new one.
+
+Please notice that the task queue classes are totally decoupled from the objects that are doing the 
+computation. One minute a thread may be computing a financial computation, and the next it may be 
+retrieving something from the network. The task queue objects do not care; they just retrieve commands 
+and call execute(). Likewise, as long as you put objects into the queue that implement the Command 
+Pattern, your execute() method will be invoked when a thread is available. 
+
+How might a web server make use of such a queue? What other applications can you think of?
