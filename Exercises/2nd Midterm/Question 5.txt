@@ -15,3 +15,23 @@ and call execute(). Likewise, as long as you put objects into the queue that imp
 Pattern, your execute() method will be invoked when a thread is available. 
 
 How might a web server make use of such a queue? What other applications can you think of?
+
+    - A web server (Web application) may put some tasks/jobs/requests on a queue with the 
+      enough information that the process needs to execute, it may be an HTTP request, for 
+      example, with its corresponding attributes. This way the jobs are enabled to proceed. 
+      A group of worker processes in the background, that may be running independent of the 
+      web app, read the jobs off the queue in a FIFO (First In First Out) order and execute 
+      them. This execution can call other functions in orther to process the results and do 
+      what is desired (write the responses in a reply queue or into a database, it depends 
+      on the implementation).
+
+    - Applications:
+        - CPU scheduling
+        - Disk Scheduling.
+        - IO Buffers
+        - Pipes
+        - File IO
+        - Print spooling
+        - Breadth First search in a Graph
+        - Handling of interrupts in real-time systems
+        - Call Center phone systems
