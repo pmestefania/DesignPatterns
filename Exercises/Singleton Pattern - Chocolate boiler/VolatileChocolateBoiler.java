@@ -4,7 +4,7 @@ public class VolatileChocolateBoiler {
 
     private volatile static VolatileChocolateBoiler uniqueInstance;
 
-    private LazyChocolateBoiler() {
+    private VolatileChocolateBoiler() {
         empty = true;
         boiled = false;
     }

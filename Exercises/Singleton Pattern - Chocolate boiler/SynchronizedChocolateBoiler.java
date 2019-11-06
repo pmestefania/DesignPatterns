@@ -1,15 +1,18 @@
-public class LazyChocolateBoiler {
+public class SynchronizedChocolateBoiler {
     private boolean empty;
     private boolean boiled;
 
-    private static LazyChocolateBoiler uniqueInstance = new LazyChocolateBoiler();
+    private static SynchronizedChocolateBoiler uniqueInstance;
 
-    private LazyChocolateBoiler() {
+    private SynchronizedChocolateBoiler() {
         empty = true;
         boiled = false;
     }
 
-    public static SychronizedChocolateBoiler getInstance() {
+    public static synchronized SynchronizedChocolateBoiler getInstance() {
+        if(uniqueInstance == null) {
+            uniqueInstance = new SynchronizedChocolateBoiler();
+        }
         return uniqueInstance;
     }
 
