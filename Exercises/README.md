@@ -39,3 +39,6 @@ https://www.youtube.com/watch?v=0vmOv-DYd4o&feature=youtu.be
 
 Baguette Shop exercise Class Diagram:
 https://www.lucidchart.com/invitations/accept/d22bf7b3-9359-4c60-b83f-a18fbec93ae4
+
+# Creational Patterns - Singleton Pattern
+Chocolate boiler exercise Class Diagram:

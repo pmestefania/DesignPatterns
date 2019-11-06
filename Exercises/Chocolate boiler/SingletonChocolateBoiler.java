@@ -1,0 +1,48 @@
+public class SingletonChocolateBoiler {
+    private boolean empty;
+    private boolean boiled;
+
+    private static SingletonChocolateBoiler uniqueInstance;
+
+    private SingletonChocolateBoiler() {
+        empty = true;
+        boiled = false;
+    }
+
+    public static SingletonChocolateBoiler getInstance() {
+        if(uniqueInstance == null) {
+            uniqueInstance = new SingletonChocolateBoiler();
+        }
+        return uniqueInstance;
+    }
+
+    public void fill() {
+        if(isEmpty()) {
+            empty = false;
+            boiled = false;
+            // fill the boiler with a milk/chocolate mixture
+        }
+    }
+
+    public void drain() {
+        if(!isEmpty() && isBoiled()) {
+            // drain the boiled milk and chocolate
+            empty = true;
+        }
+    }
+
+    public void boil() {
+        if(!isEmpty() && !isBoiled()) {
+            // drain the boiled milk and chocolate
+            boiled = true;
+        }
+    }
+
+    public boolean isEmpty() {
+        return empty;
+    }
+
+    public boolean isBoiled() {
+        return boiled;
+    }
+}
