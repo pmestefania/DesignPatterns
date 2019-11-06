@@ -19,6 +19,10 @@ Mouse motion adapter exercise
 # Behavioral Patterns - Facace Pattern
 Home theater exercise
 
+# Behavioral Patterns - Command Pattern
+Intelligent control exercise Class Diagram:
+https://www.lucidchart.com/invitations/accept/c8e37827-4088-44ba-9331-6588e213c2ed
+
 # Structural Patterns - Decorator Pattern
 iCoffee exercise Class Diagram:
 https://www.lucidchart.com/invitations/accept/e19bf65b-f1d5-4ea0-84c7-d377a9e723fb
