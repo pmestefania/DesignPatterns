@@ -42,3 +42,4 @@ https://www.lucidchart.com/invitations/accept/d22bf7b3-9359-4c60-b83f-a18fbec93a
 
 # Creational Patterns - Singleton Pattern
 Chocolate boiler exercise Class Diagram:
+https://www.lucidchart.com/invitations/accept/4388e7a3-a484-45e0-a6c7-60274d163250
